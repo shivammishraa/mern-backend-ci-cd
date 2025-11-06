@@ -1,0 +1,26 @@
+{
+  "name": "mern-backend-ci-cd",
+  "version": "1.0.0",
+  "description": "Minimal Express API with CI to Docker Hub via GitHub Actions",
+  "main": "src/index.js",
+  "scripts": {
+    "dev": "node src/index.js",
+    "start": "node src/index.js",
+    "test": "jest --runInBand"
+  },
+  "keywords": [
+    "express",
+    "ci",
+    "docker",
+    "github-actions"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.19.2"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "supertest": "^6.3.4"
+  }
+}
