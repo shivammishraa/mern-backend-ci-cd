@@ -9,7 +9,7 @@ app.get('/api/health', (req, res) => {
 
 // Sample root route
 app.get('/', (req, res) => {
-  res.send('Hello from MERN backend CI/CD demo!');
+  res.send('Hello from MERN backend CI/CD demooo!');
 });
 
 module.exports = app;
